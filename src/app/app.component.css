@@ -1,0 +1,23 @@
+.tab {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tab .tablinks {
+  background-color: #e7e7e7;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab .tablinks.active, .tab .tablinks:hover {
+  background-color: #ddd;
+}

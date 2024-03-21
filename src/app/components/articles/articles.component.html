@@ -1,0 +1,14 @@
+<div class="filter-panel">
+    <input type="number" [(ngModel)]="articleCount" placeholder="Number of articles">
+    <button (click)="fetchArticles()">Filter</button>
+  </div>
+  
+  <div class="articles-content">
+
+    <div *ngFor="let article of articles">
+    
+      <h3>{{ article.title }}</h3>
+      <p>{{article.summary}}</p> 
+    </div>
+  </div>
+  

@@ -1,0 +1,57 @@
+
+.content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .blogs-content{
+    padding: 116px;
+  }
+  .content h3 {
+    margin-top: 0;
+  }
+  
+  .content div + div {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+  }
+  .tabcontent {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 116px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  .filter-panel {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .filter-panel input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-panel button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .articles-content, .blogs-content, .reports-content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 110px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  

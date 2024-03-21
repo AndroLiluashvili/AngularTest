@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.tabcontent {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
